@@ -1,0 +1,121 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+/*@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+*/
+
+
+
+
+// Font Awesome 6 Free
+@import '../../node_modules/@fortawesome/fontawesome-free/';
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+//GENERAL STYLES 
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: $coolBlack;
+}
+
+
+/////////////////////////// Header Section Home Page Starts Here /////////////////////////////
+
+.header-Section{
+    width: $width100;
+    background: $whiteSmoke;
+
+
+
+    .header-Section-Container{
+        width: $width90;
+        display: flex;
+
+
+        .section-left{
+            justify-content: flex-start;
+
+            .headerLinkLeft{
+                display: flex;
+                
+                a{
+                    color: $coolBlack;
+                    margin: 1rem 1rem;
+                    font-weight: 600;
+                    transition: all 1s ease;
+
+                    &:hover{
+                        color: $primary;
+                        transition: all 1s ease;
+                    }
+                }
+            }
+
+        }
+
+
+        .section-right{
+            display: flex;
+            justify-content: flex-end;
+
+
+            .headerLinkRight{
+                display: flex;
+                justify-content: space-between;
+                align-content: space-between;
+
+
+                a{
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin: auto 2rem;
+                    color: $coolBlack;
+
+
+                    i{
+                        font-size: 1.3rem;
+                        margin: auto 0.5rem;
+                        color: $coolBlack;
+                    }
+
+                    p{
+                        font-size: 1rem;
+                        font-weight: 700;
+                        margin-top: 1rem;
+                    }
+
+                    button{
+                        outline: none;
+                        background: $primary;
+                        color: $white;
+                        border: none;
+                        border-radius: 0.2rem;
+                        padding: 0.3rem 1rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/////////////////////////// Header Section Home Page ends Here /////////////////////////////
