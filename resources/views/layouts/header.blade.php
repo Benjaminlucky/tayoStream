@@ -19,5 +19,73 @@
                 </div>
             </div>
         </div>
+</div>
+
+
+<!-- header navigation Starts here -->
+
+
+<!-- Navigation toggle here --->
+
+<nav class="navbar">
+    <div class="brand-title">
+        <img src="{{asset('images/compay-logo.svg')}}" alt="">
     </div>
-    
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+        <ul>
+            <li><a href="#">In-Person-Events</a></li>
+            <li class="drop-one"><a href="#">Live Streaming </a>
+                <div class="dropDown-one">
+                    <ul>
+                        <li> <a href="#">Facebook LIVE Streaming</a> </li>
+                        <li> <a href="#">YouTube LIVE Streaming</a> </li>
+                        <li> <a href="#">Instagram LIVE Streaming</a> </li>
+                        <li> <a href="#">On Demand Streaming</a> </li>
+                        <li> <a href="#">IP Based Streaming</a> </li>
+                        <li> <a href="#">2-Way Video Conferencing</a> </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Webinars</a></li>
+            <li class="drop-two"><a href="#">Hybrid Events</a>
+                <div class="dropDown-two">
+                    <ul>
+                        <li> <a href="#">Hybrid Meetings</a></li>
+                        <li> <a href="#">Hybrid Show and Launches</a></li>
+                        <li> <a href="#">Hybrid Fairs</a></li>
+                        <li> <a href="#">Hybrid Exhibitions</a></li>
+                        <li> <a href="#">Hybrid Fest</a></li>
+                        <li> <a href="#">Hybrid Conferences</a></li>
+                        <li> <a href="#">Hybrid AGM</a></li>
+                        <li> <a href="#">Hybrid TownHall</a></li>
+                        <li> <a href="#">Hybrid Trade Show</a></li>
+                        <li> <a href="#">Hybrid Award Show</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drop-three"><a href="#">Virtual Events</a>
+                <div class="dropDown-Three">
+                    <ul>
+                        <li> <a href="#">Virtual Events</a> </li>
+                        <li> <a href="#">Virtual Shows And Launches</a> </li>
+                        <li> <a href="#">Virtual Fairs</a> </li>
+                        <li> <a href="#">Virtual Exhibitions</a> </li>
+                        <li> <a href="#">Virtual Conferences</a> </li>
+                        <li> <a href="#">Virtual AGM</a> </li>
+                        <li> <a href="#">Virtual TownHall</a> </li>
+                        <li> <a href="#">Virtual Trade Shows</a> </li>
+                        <li> <a href="#">Virtual Award Shows</a> </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- header navigation ends here -->
