@@ -42,12 +42,12 @@
             <li class="drop-one"><a href="#">Live Streaming </a>
                 <div class="dropDown-one">
                     <ul>
-                        <li> <a href="#">Facebook LIVE Streaming</a> </li>
-                        <li> <a href="#">YouTube LIVE Streaming</a> </li>
-                        <li> <a href="#">Instagram LIVE Streaming</a> </li>
-                        <li> <a href="#">On Demand Streaming</a> </li>
-                        <li> <a href="#">IP Based Streaming</a> </li>
-                        <li> <a href="#">2-Way Video Conferencing</a> </li>
+                        <li> <a href="#" class="Link"> <span><i class="fa-brands fa-facebook"></i></span> Facebook LIVE Streaming</a> </li>
+                        <li> <a href="#" class="Link"> <span><i class="fa-brands fa-youtube"></i></span> YouTube LIVE Streaming</a> </li>
+                        <li> <a href="#" class="Link"> <span><i class="fa-brands fa-instagram"></i></span> Instagram LIVE Streaming</a> </li>
+                        <li> <a href="#" class="Link"> <span><i class="fa-solid fa-globe"></i></span> On Demand Streaming</a> </li>
+                        <li> <a href="#" class="Link"> <span><i class="fa-solid fa-satellite"></i></span> IP Based Streaming</a> </li>
+                        <li> <a href="#" class="Link"> <span><i class="fa-solid fa-video"></i></span> 2-Way Video Conferencing</a> </li>
                     </ul>
                 </div>
             </li>
