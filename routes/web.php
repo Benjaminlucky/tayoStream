@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('livestreaming');
-});
 
-Auth::routes();
 
+
+Route::get('/', [App\Http\Controllers\LivestreamingController::class, 'index'])->name('livestreaming');
+Route::get('/In-person-Events', [App\Http\Controllers\InpersonController::class, 'index'])->name('In-person-Events');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Auth::routes();

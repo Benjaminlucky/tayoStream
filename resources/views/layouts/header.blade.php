@@ -38,8 +38,8 @@
     </a>
     <div class="navbar-links">
         <ul>
-            <li><a href="#">In-Person-Events</a></li>
-            <li class="drop-one"><a href="#">Live Streaming </a>
+            <li><a href="{{Route('In-person-Events')}}">In-Person-Events</a></li>
+            <li class="drop-one"><a href="#">Live Streaming</a>
                 <div class="dropDown-one">
                     <ul>
                         <li> <a href="#" class="Link"> <span><i class="fa-brands fa-facebook"></i></span> Facebook LIVE Streaming</a> </li>

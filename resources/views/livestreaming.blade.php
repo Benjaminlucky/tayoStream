@@ -13,6 +13,15 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
+    <!-- Fonts Awesome -->
+
+    <script src="https://kit.fontawesome.com/4589a9ba66.js" crossorigin="anonymous"></script>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
     @vite(['resources/js/app.js'])
 
 </head>
@@ -158,5 +167,12 @@
     
 
     <!--- Interactive EvenTS Solutions End Here -->
+
+    @include('layouts.testimonials')
+    @include('layouts.products-cards')
+    @include('layouts.prefooter')
+    @include('layouts.footer')
+
 </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </html>
